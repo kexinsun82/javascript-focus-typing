@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusTyping | Practice</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/practice.css">
+  <script src="./js/practice.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="top-box">
+      <button id="back-button">Back</button>
+      <div class="accuracy-box">
+        <span>Accuracy</span>
+        <span id="accuracy">0%</span>
+      </div>
+      <div class="time-box">
+        <span>Time</span>
+        <span id="timer">0:00</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="content-wrapper">
+      <p class="hint">Tip: Start typing in the black box. Your goal is to match the white box content below!</p>
+      <div class="content-box">
+        <div id="typing-content">Type this content...</div>
+      </div>
+      <div id="error-message">Something doesn’t match. Please correct it.</div>
+      <textarea id="typing-input" placeholder="Start typing here..."></textarea>
+    </div>
+  </main>
+</body>
+
+</html>

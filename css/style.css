@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --accent-color: #AEB6FF;
+  --bgc: #E9EBFE;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 500 1em/1.2 "Poppins", sans-serif; /* 16px = 1em */
+  margin: 2em 4em;
+  padding: 0;
+  background-color: var(--bgc);
+  color: #333;
+}
+
+/* Site Name - LOGO */
+#site-name {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+  text-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 24px 0;
+}
+h3 {
+  font-size: 1.75em;
+  margin: 24px 0;
+}
+p {
+  font-size: 1.5em;
+}
+
+/* "Get Started Now" List */
+.list {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+#preview-box, .content-box, #typing-input {
+  margin: 0  0 1.5rem 0;
+  padding: 0 2.5rem;
+  background: #fff;
+  border: none;
+  width: 75rem;
+  height: 16rem;
+  text-align: left;
+  white-space: pre-wrap;
+  overflow: auto;
+  border-radius: 20px;
+  font-family: "Roboto Mono", serif, monospace;
+}
+
+#preview-content, #typing-content, #typing-input {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* "Select Topic Button" */
+#select-topic-button {
+  margin-top: 2em;
+  padding: 1.25rem 6.25rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+}
+#select-topic-button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Footer style */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+

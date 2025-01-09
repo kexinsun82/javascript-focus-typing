@@ -1,0 +1,34 @@
+.topic-selection {
+  text-align: center;
+}
+
+#topic-button button {
+  margin: 0.5rem;
+  padding: 0.5rem 1.875rem;
+  font-size: 1.75rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#topic-button button.active {
+  background-color: var(--accent-color);
+}
+
+#start-button {
+  padding: 1.25rem 6.25rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  cursor: not-allowed;
+}
+
+#start-button.enabled {
+  background-color: #AEB6FF;
+  cursor: pointer;
+}
